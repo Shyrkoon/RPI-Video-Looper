@@ -55,6 +55,8 @@ After rebooting the system will be updated, upgraded and with all the scripts re
 /home/{new user}/scripts
 ```
 
+Very Important!: Remember to change the IP, user and the password needed to make the connection to the data base in the finel code of the script.
+
 Note: The zip containing the scripts must be named: scripts.zip. If not, some scripts will not work because after unzipping them a folder named scripts gets created
 automatically. If you want to change the name of the folder keep in mind that some scripts will need to be modified because they all use the folloing path:
 ```bash
