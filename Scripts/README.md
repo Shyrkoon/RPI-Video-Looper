@@ -206,6 +206,7 @@ There are the three variables needed in order:
 * location (location where the video will be downloaded)
 * name (the vide will be renamed after the download)
 
+Note: It is recomended to only download 1080p videos or less quality videos. 4k videos may not work properly.
 
 ## Delete_Video
 This is a simple script to delete files from a system. It uses the ``` rm ``` command to delete 
