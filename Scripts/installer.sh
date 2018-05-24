@@ -145,7 +145,7 @@ rm -rf /home/$newuser/scripts
 cd /home/$newuser
 
 #Download all necessary scripts from GitLab
-wget https://github.com/Shyrkoon/Base-de-dades/blob/master/proejcte/scripts.zip?raw=true
+wget https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/Scripts/scripts.rar?raw=true
 
 #Rename the folder because it gets downloaded with a weird name
 mv scripts.zip\?raw\=true scripts.zip
