@@ -87,8 +87,13 @@ All the documentation can be found in the [README](https://gitlab.com/j.torrents
 The most important script is ``` installer.sh ``` wich sets up the Raspberry and downloads all the other scripts.
 
 ### Web Page
-JOSE MATAO QUE TIENES QUE PONER AQUI UN PAR DE LINIAS PARA QUE ALMENOS HAYA ALGO.
+The web page is responsible for managing this entire system, it is the bridge between the end user and the scripts.
 
+We have the normal version to be implemented in a public web server, and the version for local web servers, **the only difference is that the local version does not implement Google's reCAPTCHA and uses local IPs instead of public ones.**
+
+[Web Interface](https://gitlab.com/j.torrents/projecte/tree/master/Web%20Interface)
+
+[Web Interface Local](https://gitlab.com/j.torrents/projecte/tree/master/Web%20Interface%20Local)
 
 ## Used scripts from GitHub
 This project couldn't have been possible without the script that loops videos on a Raspberry Pi
