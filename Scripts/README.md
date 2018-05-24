@@ -8,6 +8,8 @@ The scripts are heavily commented with thorough explanations.
 ## Installer
 This is the main script. As you can see on the README of the previous page.
 
+Keep in mind that some lines of code inside the script need to be changed if you have your own scripts in your GitHub and if you want to access to your own database.
+
 This script will make the following changes:
 * Check if the script is being executed by sudo and in the correct linux distro (Must be Raspbian)
 * Update and upgrade the system
