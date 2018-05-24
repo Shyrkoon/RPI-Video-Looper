@@ -97,6 +97,10 @@ The script now downloads all the other scripts from GitHub. Basically just donwl
 file, changes the name of that file because it get donwloaded with a weird name, unzips it into 
 the home of the new user and deletes the .zip that has been downloaded.
 
+Note: Video playback may stop working while the system updates the scripts. That is because it deletes all the previous scripts
+to download the new ones. Do not execute this script if you have custom scripts in your Raspberry Pi because all of them 
+will be deleted even if the download fails. Always keep a backup in your computer or in the cloud.
+
 ---
 The following part it is not 100% necessary, but it gets created to manualy start the script 
 that starts playing the videos on loop. 
