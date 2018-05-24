@@ -286,6 +286,7 @@ system.
 It checks the private ip of the system every 60 seconds and checks if its the same that is 
 registered on the Database. If it has changed it will make an update.
 
+Remember to change the IP, user and password from the script to match your Database. 
 
 ## UpdateCheckPublicIP
 Same as the previous script but this one checks the public ip of the system. This one needs to 
@@ -294,6 +295,7 @@ to the Raspberry from the web server.
 
 To change between this script and the second one simply change them in ``` services.sh ```.
 
+Remember to change the IP, user and password from the script to match your Database.
 
 ## Services
 This last script gets managed by the ``` installer.sh ```. It gets executed everytime the user 
