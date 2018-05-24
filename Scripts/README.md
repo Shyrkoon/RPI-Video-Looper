@@ -4,7 +4,6 @@
 This readme has an extensive explanation of every script.
 The scripts are heavily commented with thorough explanations.
 
-
 ## Installer
 This is the main script. As you can see on the README of the previous page.
 
