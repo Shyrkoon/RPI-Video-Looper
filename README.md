@@ -28,9 +28,9 @@ Raspberry Pi Requirements:
 
 
 ## Installation
-To install the scripts, simply download the [installer.sh](https://gitlab.com/j.torrents/projecte/blob/master/Scripts/installer.sh) (located in the folder scripts)
+To install the scripts, simply download the [installer.sh](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/Scripts/installer.sh) (located in the folder scripts)
 and execute it on a freshly installed Raspbian in a Raspberry Pi.
-Aditionally, all the scripts that need to be in the Raspberry are located on the [Scripts](https://gitlab.com/j.torrents/projecte/tree/master/Scripts) folder.
+Aditionally, all the scripts that need to be in the Raspberry are located on the [Scripts](https://github.com/Shyrkoon/RPI-Video-Looper/tree/master/Scripts) folder.
 
 Note: The script must be executed with sudo!
 
