@@ -68,7 +68,7 @@ automatically. If you want to change the name of the folder keep in mind that so
 If you want to update one or more scripts, simply zip them all (the modified ones and the old ones, basically every script located in the script folder) and put your .zip in GitHub. Then modify the installer.sh and look for this lines of code:
 ```bash
 #Download all necessary scripts from GitLab
-wget https://github.com/Shyrkoon/Base-de-dades/blob/master/proejcte/scripts.zip?raw=true
+wget https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/Scripts/scripts.rar?raw=true
 ```
 After the 'wget' command put your link of the raw zip of your GitHub. Then execute the script. The folder 'scripts' will be deleted and downloaded again.
 Don't worry about all the changes that the script makes, if they have already been made, nothing will change on the Raspberry.
@@ -84,7 +84,7 @@ Abajo pondremos detalladamente todo lo que hace cada script i todo lo que puede 
 
 We have plenty of scripts to manage every thing in the Raspberry. 
 
-All the documentation can be found in the [README](https://gitlab.com/j.torrents/projecte/tree/master/Scripts) in the scripts folder.
+All the documentation can be found in the [README](https://github.com/Shyrkoon/RPI-Video-Looper/tree/master/Scripts) in the scripts folder.
 
 The most important script is ``` installer.sh ``` wich sets up the Raspberry and downloads all the other scripts.
 
