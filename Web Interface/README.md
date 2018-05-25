@@ -20,7 +20,7 @@ https://www.raspberrypi.org/
 
 https://aws.amazon.com/es/
 
-### Webpage: http://www.rpiprojecte.cf/
+### Webpage: http://www.rpiRPI-Video-Looper.cf/
 
 * [Server Requirements](#serverrequirements)
 * [Preparation and Installation](#preparation-and-installation)
@@ -137,26 +137,26 @@ Conditions page.
 ### registerRPI.php
 Page that leaves after the first start, the user that has an RPI will have to register the Hardware in his account through the MAC of the RPI that is saved in the Database.
 
-![registerRPI](https://github.com/jatorrents/Projecte/blob/master/images/registerRPI.PNG)
+![registerRPI](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/registerRPI.PNG)
 
 ### home.php
 Welcome page and minimum management of the RPI, from this page we can see some data of the RPI, update the scripts and restart the RPI.
 
-![home](https://github.com/jatorrents/Projecte/blob/master/images/home.PNG)
+![home](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/home.PNG)
 
 ### videos.php
 On this page the user creates and deletes the folders containing the videos, here you can also select the folder that needs to play or stop videos.
 
 - Create folder:
 
-![newFolder](https://github.com/jatorrents/Projecte/blob/master/images/newFolderEdited.PNG)
+![newFolder](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/newFolderEdited.PNG)
 
 1. Enter the name of the folder.
 2. Click on the botton for create folders.
 
 - Delete folder:
 
-![deleteFolder](https://github.com/jatorrents/Projecte/blob/master/images/deleteFolderEdited.PNG)
+![deleteFolder](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/deleteFolderEdited.PNG)
 
 1. You must display the menu.
 2. Select the folder you want to delete.
@@ -166,7 +166,7 @@ On this page the user creates and deletes the folders containing the videos, her
 
 -  Delete, Play and Stop videos:
 
-![deletePlayStopVideos](https://github.com/jatorrents/Projecte/blob/master/images/playStopDeleteEdit.PNG)
+![deletePlayStopVideos](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/playStopDeleteEdit.PNG)
 
 1. Select the folder you want to edit.
 2. Play videos from the selected folder.
@@ -179,14 +179,14 @@ Page to download the videos using the URL.
 - Download videos:
 First part:
 
-![downloadVideoEdit](https://github.com/jatorrents/Projecte/blob/master/images/downloadVideoEdit.PNG)
+![downloadVideoEdit](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/downloadVideoEdit.PNG)
 
 1. Enter URL.
 2. Show preview.
 
 Second part:
 
-![downloadVideo2Edit](https://github.com/jatorrents/Projecte/blob/master/images/downloadVideo2Edit.PNG)
+![downloadVideo2Edit](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/downloadVideo2Edit.PNG)
 
 1. Enter name of the video.
 2. Select the folder.
@@ -201,14 +201,14 @@ This document is responsible for receiving via POST the data of the video that t
 
 You should wait for it to complete if you after click the download button.
 
-![downloadVideo3Edit](https://github.com/jatorrents/Projecte/blob/master/images/downloadVideo3Edit.PNG)
+![downloadVideo3Edit](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/downloadVideo3Edit.PNG)
 
 ### schedules.php
 This page is responsible for programming video playback schedules, it does not play videos from one range to another, what it does basically is at the indicated time it starts playing the indicated folder.
 
 - Create schedule:
 
-![schedulesEdit](https://github.com/jatorrents/Projecte/blob/master/images/schedulesEdit.png)
+![schedulesEdit](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/schedulesEdit.png)
 
 1. First you name a schedule.
 2. Then select the time you want to play the videos in the folder that we will select later.

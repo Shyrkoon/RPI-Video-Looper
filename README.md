@@ -1,5 +1,5 @@
 # Raspberry Pi Video Looper
-<img src="Web%20Interface%20Local/images/logo.png" width="100"/>
+<img src="https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/logo.png" width="100"/>
 
 ## Description
 
