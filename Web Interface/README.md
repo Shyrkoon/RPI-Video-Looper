@@ -457,14 +457,23 @@ function dynamicDiv($numVideos){
 ```
 
     Output: w3-content|w3-half|w3-third|w3-quarter
+##### w3-content
 
 ![w3Content](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Content.png)
 
+##### w3-half
+
 ![w3Half](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Half.png)
+
+##### w3-third
 
 ![w3Third](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Third.png)
 
+##### w3-quarter
+
 ![w3Quarter](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Quarter.png)
+
+![Author](https://www.w3schools.com/w3css/w3css_responsive.asp)
 
 #### Create, delete or list the folders that are available to save the videos.
 ##### newFolder($nameFolder)
