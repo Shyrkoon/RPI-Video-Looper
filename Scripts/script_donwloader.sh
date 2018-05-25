@@ -1,11 +1,6 @@
-#!/bin/bash
-#Esto es una prueba para ver si puedo hacer que se descargue todos los scripts de nuevo
+# Download all the scripts from GitHub #
 
-#Este es el usuario con el que estamos trabajando de momento
-newuser=project
-
-# Download all the scripts from GitLab or GitHub
-#First we need to check that there are no scripts running in the background
+#Check that there are no scripts running in the background
 systemctl stop loop.service
 
 kill -6 $(pgrep -f omxplayer)
@@ -17,8 +12,8 @@ rm -rf /home/$newuser/scripts
 #Move to the user home
 cd /home/$newuser
 
-#Download all necessary scripts from GitLab
-wget https://github.com/Shyrkoon/Base-de-dades/blob/master/proejcte/scripts.zip?raw=true
+#Download all necessary scripts from GitHub
+wget https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/Scripts/scripts.rar?raw=true
 
 #Rename the folder because it gets downloaded with a weird name
 mv scripts.zip\?raw\=true scripts.zip
@@ -29,5 +24,6 @@ unzip scripts.zip
 #Remove the tar
 rm scripts.zip
 
-#Change the owner of all the scripts
+#Change the owner of all the scripts and give execute permission
 chown -R $newuser /home/$newuser/scripts
+chmod +x /home/$newuser/scripts
