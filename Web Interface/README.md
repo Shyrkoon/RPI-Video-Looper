@@ -458,14 +458,13 @@ function dynamicDiv($numVideos){
 
     Output: w3-content|w3-half|w3-third|w3-quarter
 
-# Exemple gràfic
-![w3Content](/uploads/de6ff146828f0278776c16e219d175f6/w3Content.png)
+![w3Content](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Content.png)
 
-![w3Half](/uploads/85b52c69cb996379da85de6ce5d96fd3/w3Half.png)
+![w3Half](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Half.png)
 
-![w3Third](/uploads/8fd4aa08528a7c4428723a4490688dca/w3Third.png)
+![w3Third](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Third.png)
 
-![w3Quarter](/uploads/b16c565e3fa52dcd34e72ac8b0fdfb5c/w3Quarter.png)
+![w3Quarter](https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/w3Quarter.png)
 
 #### Create, delete or list the folders that are available to save the videos.
 ##### newFolder($nameFolder)
@@ -695,7 +694,7 @@ function stopFolder($nameFolder){
     global $passwordSSH;
 	session_start();
     unset($_SESSION['play']);
-    shell_exec("sshpass -p '$passwordSSH' ssh -oStrictHostKeyChecking=no $userSSH@".getIPRPI()." sudo /home/project/scripts/startvideo.sh stop");
+    shell_exec("sshpass -p '$passwordSSH' ssh -oStrictHostKeyChecking=no $userSSH@".getIPRPI()." sudo /home/$userSSH/scripts/startvideo.sh stop");
 }
 ```
 #### Check connection status with RPI
@@ -879,7 +878,15 @@ function listRPI(){
 #### Update or Restart RPI
 ##### updateRPI()
 ```
-Coming soon!
+function updateRPI(){
+    global $userSSH;
+    global $passwordSSH;
+    if(isset($_SESSION['play'])){
+        unset($_SESSION['play']);
+    }
+    shell_exec("sshpass -p '$passwordSSH' ssh -oStrictHostKeyChecking=no $userSSH@".getIPRPI()." sudo /home/$userSSH/scripts/startvideo.sh stop");
+    shell_exec('sshpass -p '.$passwordSSH.' ssh -oStrictHostKeyChecking=no '.$userSSH.'@'.getIPRPI().' sudo /home/'.$userSSH.'/scripts/./installer.sh');
+}
 ```
 #### restartRPI()
 Function to restart the RPI when on the home.php page you click on the reset button.
