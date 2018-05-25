@@ -62,7 +62,7 @@ automatically. If you want to change the name of the folder keep in mind that so
 ```bash
 /home/{new user}/scripts/{script name}.sh
 ```
-
+**The documentation to install the web interface is [here](https://github.com/Shyrkoon/RPI-Video-Looper/tree/master/Web%20Interface), if it is not the case you can also use our web server.**
 
 ## Update all the scripts
 If you want to update one or more scripts, simply zip them all (the modified ones and the old ones, basically every script located in the script folder) and put your .zip in GitHub. Then modify the installer.sh and look for this lines of code:
@@ -93,9 +93,11 @@ The web page is responsible for managing this entire system, it is the bridge be
 
 We have the normal version to be implemented in a public web server, and the version for local web servers, **the only difference is that the local version does not implement Google's reCAPTCHA and uses local IPs instead of public ones.**
 
-[Web Interface](https://gitlab.com/j.torrents/projecte/tree/master/Web%20Interface)
+[Public Web Interface](https://github.com/Shyrkoon/RPI-Video-Looper/tree/master/Web%20Interface/Public%20Web%20Interface)
 
-[Web Interface Local](https://gitlab.com/j.torrents/projecte/tree/master/Web%20Interface%20Local)
+[Local Web Interface ](https://github.com/Shyrkoon/RPI-Video-Looper/tree/master/Web%20Interface/Local%20Web%20Interface)
+
+All the documentation can be found here [README](https://github.com/Shyrkoon/RPI-Video-Looper/tree/master/Web%20Interface).
 
 ## Used scripts from GitHub
 This project couldn't have been possible without the script that loops videos on a Raspberry Pi
@@ -107,4 +109,4 @@ All of this was made as a final project for the Spanish ASIX course.
 
 Made by Jose and Raúl.
 
-Special thanks to Orbis360. 
+Special thanks to Orvis360. 
