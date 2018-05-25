@@ -22,6 +22,6 @@ Here we will configure a name for this rule, the system that will be forwarded, 
 
 Now simply click on apply:
 
-<img src="https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/port_forwarding3.PNG" width="800"/>
+<img src="https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/port_forwarding3.PNG" width="500"/>
 
 <img src="https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/images/port_forwarding4.PNG" width="500"/>
