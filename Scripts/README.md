@@ -312,3 +312,25 @@ Database. The other script is the ```startvideo.sh ```which starts playing video
 
 ---
 Thanks for reading.
+
+Useful links:
+
+http://www.orvis360.com/
+
+https://www.raspberrypi.org/
+
+https://github.com/timatron/videolooper-raspbian
+
+https://rg3.github.io/youtube-dl/
+
+https://scribles.net/disabling-bluetooth-on-raspberry-pi/
+
+https://raspberrypi.stackexchange.com/questions/48241/auto-login-in-jessie-how
+
+https://askubuntu.com/questions/270049/how-to-run-a-command-at-login
+
+https://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server
+
+https://stackoverflow.com/questions/878600/how-to-create-a-cron-job-using-bash-automatically-without-the-interactive-editor
+
+https://www.linuxquestions.org/questions/linux-desktop-74/bash-sciript-to-edit-crontab-659793/
