@@ -190,6 +190,7 @@ Very Important:
 As you can see in the following sentence:
 
 ```sudo mysql -h 34.217.243.108 -u rpiClient -prpiClients1 projecteRPI --ssl-key=/home/$newuser/scripts/Projecte.pem <<EOF```
+
 a .pem is being used. This needs to be created manually by you to establish connection to te 
 database in the servers of AWS. This part of the script will not work automatically if the key 
 it is not present in the zip that gets downloaded at the start. 
