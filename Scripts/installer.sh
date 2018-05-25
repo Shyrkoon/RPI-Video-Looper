@@ -130,7 +130,7 @@ autolograsp="[Service]
 	echo -e "${GREEN}Autoling settings modified. The system will autolog into $newuser \n${NC}"
 
 
-# Download all the scripts from GitLab #
+# Download all the scripts from GitHub #
 
 #Check that there are no scripts running in the background
 systemctl stop loop.service
@@ -144,7 +144,7 @@ rm -rf /home/$newuser/scripts
 #Move to the user home
 cd /home/$newuser
 
-#Download all necessary scripts from GitLab
+#Download all necessary scripts from GitHub
 wget https://github.com/Shyrkoon/RPI-Video-Looper/blob/master/Scripts/scripts.rar?raw=true
 
 #Rename the folder because it gets downloaded with a weird name
